@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DifferenceCalculator", "DifferenceToFive\DifferenceCalculator.csproj", "{7A38EF22-C396-44C1-B1EB-0955F4B03F33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DifferenceToFiveTests", "DifferenceToFiveTests\DifferenceToFiveTests.csproj", "{A36E2687-F14E-43E4-8237-AAA605C5D613}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A38EF22-C396-44C1-B1EB-0955F4B03F33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A38EF22-C396-44C1-B1EB-0955F4B03F33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A38EF22-C396-44C1-B1EB-0955F4B03F33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A38EF22-C396-44C1-B1EB-0955F4B03F33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A36E2687-F14E-43E4-8237-AAA605C5D613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A36E2687-F14E-43E4-8237-AAA605C5D613}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A36E2687-F14E-43E4-8237-AAA605C5D613}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A36E2687-F14E-43E4-8237-AAA605C5D613}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {281FA3A0-6340-4411-A538-E7E53E138F69}
+	EndGlobalSection
+EndGlobal
