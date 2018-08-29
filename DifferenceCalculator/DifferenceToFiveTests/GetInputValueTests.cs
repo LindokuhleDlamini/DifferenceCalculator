@@ -1,24 +1,22 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using DifferenceCalculator;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace DifferenceToFiveTests
+namespace DifferenceCalculatorTests
 {
     [TestClass]
-    public class GetInputValueTests
+    public class GetInputValueTests: BaseTest
     {
 
         [TestMethod]
         public void GetInputValue_WhenInputValueIsNumeric_ReturnsValueInput()
         {
-            var response =main.GetInputValue("1");
+            var response =_results.GetInputValue("1");
             Assert.AreEqual(response, 1);
         }
 
         [TestMethod]
         public void GetInputValue_WhenInputValueIsNotNumeric_ReturnsNegativeValue()
         {
-            var response = main.GetInputValue("qwerty");
+            var response = _results.GetInputValue("qwerty");
             Assert.AreEqual(response, -1);
         }
     }

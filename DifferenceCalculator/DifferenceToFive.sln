@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27428.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DifferenceCalculator", "DifferenceToFive\DifferenceCalculator.csproj", "{7A38EF22-C396-44C1-B1EB-0955F4B03F33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DifferenceToFiveTests", "DifferenceToFiveTests\DifferenceToFiveTests.csproj", "{A36E2687-F14E-43E4-8237-AAA605C5D613}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DifferenceCalculatorTests", "DifferenceToFiveTests\DifferenceCalculatorTests.csproj", "{A36E2687-F14E-43E4-8237-AAA605C5D613}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

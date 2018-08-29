@@ -48,8 +48,11 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DifferenceToFiveTests.cs" />
+    <Compile Include="BaseTest.cs" />
+    <Compile Include="CalculatorTests.cs" />
+    <Compile Include="DisplayTests.cs" />
     <Compile Include="GetInputValueTests.cs" />
+    <Compile Include="InputValidationTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
