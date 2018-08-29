@@ -59,7 +59,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DifferenceToFive\DifferenceCalculator.csproj">
+    <ProjectReference Include="..\DifferenceCalculator\DifferenceCalculator.csproj">
       <Project>{7a38ef22-c396-44c1-b1eb-0955f4b03f33}</Project>
       <Name>DifferenceCalculator</Name>
     </ProjectReference>
