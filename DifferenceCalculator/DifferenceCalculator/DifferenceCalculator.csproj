@@ -42,8 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Displayer.cs" />
+    <Compile Include="InputProcessor.cs" />
+    <Compile Include="Interfaces\IDisplayer.cs" />
+    <Compile Include="Interfaces\IInputProcessor.cs" />
     <Compile Include="ResultsProcessor.cs" />
-    <Compile Include="IResultsProcessor.cs" />
+    <Compile Include="Interfaces\IResultsProcessor.cs" />
     <Compile Include="DifferenceCalculatorRunner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

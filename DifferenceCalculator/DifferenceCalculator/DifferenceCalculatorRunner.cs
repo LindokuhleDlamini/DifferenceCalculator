@@ -6,8 +6,8 @@ namespace DifferenceCalculator
     {
         public static void Main(string[] args)
         {
-            var results = new ResultsProcessor(50);
-            Console.WriteLine(results.Display(results.GetInputValue(Console.ReadLine())));
+            var result = new Displayer(50);
+            result.Display(Console.ReadLine());
             Console.Read();
         }
     }
